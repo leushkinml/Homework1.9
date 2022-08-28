@@ -9,8 +9,8 @@ public class Main {
 
         System.out.println("warAndPeace.getTitleOfTheBook() = " + warAndPeace.getTitleOfTheBook());
 
-        System.out.println(warAndPeace.getAuthorFullName());
-        System.out.println(warAndPeace.getAuthorFullName().getAuthorFirstName());
+        System.out.println(warAndPeace.getAuthor().getAuthorFirstName());
+
 
         System.out.println("warAndPeace.getYeaOfPublication() = " + warAndPeace.getYeaOfPublication());
 
