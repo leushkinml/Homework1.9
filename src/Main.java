@@ -8,12 +8,7 @@ public class Main {
         Book muMu = new Book("Mu-Mu", new Author ("Ivan", "Turgenev"), 1900);
 
         System.out.println("warAndPeace.getTitleOfTheBook() = " + warAndPeace.getTitleOfTheBook());
-
-        System.out.println(warAndPeace.getAuthor().getAuthorFirstName());
-
-
         System.out.println("warAndPeace.getYeaOfPublication() = " + warAndPeace.getYeaOfPublication());
-
 
         warAndPeace.setYeaOfPublication(1969);
         System.out.println("warAndPeace.getYeaOfPublication() = " + warAndPeace.getYeaOfPublication());
@@ -21,11 +16,15 @@ public class Main {
         System.out.println("muMu.getTitleOfTheBook() = " + muMu.getTitleOfTheBook());
         System.out.println("muMu.getYeaOfPublication() = " + muMu.getYeaOfPublication());
 
-
         // Author
         Author levTolstoy = new Author("Lev", "Tolstoy");
         Author ivanTurgenev = new Author("Ivan","Turgenev");
 
+        System.out.println("levTolstoy.getAuthorFirstName() = " + levTolstoy.getAuthorFirstName());
+        System.out.println("levTolstoy.getAuthorLastName() = " + levTolstoy.getAuthorLastName());
+        System.out.println("ivanTurgenev.getAuthorFirstName() = " + ivanTurgenev.getAuthorFirstName());
+        System.out.println("ivanTurgenev.getAuthorLastName() = " + ivanTurgenev.getAuthorLastName());
 
+        System.out.println(warAndPeace.getTitleOfTheBook() + " " + warAndPeace.getAuthor().getAuthorFirstName() + " " + warAndPeace.getAuthor().getAuthorLastName() + " " + warAndPeace.getYeaOfPublication());
     }
 }

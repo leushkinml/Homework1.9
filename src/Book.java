@@ -5,13 +5,18 @@ public class Book {
     private int yeaOfPublication;
 
 
-    public Book(String titleOfTheBook, Author authorFullName, int yeaOfPublication) {
+    public Book(String titleOfTheBook, Author author, int yeaOfPublication) {
         this.titleOfTheBook = titleOfTheBook;
+        this.author = author;
         this.yeaOfPublication = yeaOfPublication;
     }
 
     public String getTitleOfTheBook() {
         return this.titleOfTheBook;
+    }
+
+    public Author getAuthor() {
+        return this.author;
     }
 
     public int getYeaOfPublication() {
@@ -22,9 +27,6 @@ public class Book {
         this.yeaOfPublication = yeaOfPublication;
     }
 
-    public Author getAuthor() {
-
-    }
 }
 
 
