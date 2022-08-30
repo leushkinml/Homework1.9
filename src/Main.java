@@ -2,7 +2,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-
+        // ДЗ 1.9
         // Book
         Book warAndPeace = new Book("War and Peace", new Author("Lev", "Tolstoy"), 2000);
         Book muMu = new Book("Mu-Mu", new Author ("Ivan", "Turgenev"), 1900);
@@ -26,5 +26,9 @@ public class Main {
         System.out.println("ivanTurgenev.getAuthorLastName() = " + ivanTurgenev.getAuthorLastName());
 
         System.out.println(warAndPeace.getTitleOfTheBook() + " " + warAndPeace.getAuthor().getAuthorFirstName() + " " + warAndPeace.getAuthor().getAuthorLastName() + " " + warAndPeace.getYeaOfPublication());
+
+        // ДЗ 1.10
+        System.out.println(warAndPeace);
+        System.out.println(levTolstoy);
     }
 }
