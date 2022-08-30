@@ -22,7 +22,7 @@ public class Author {
         if (this == o) return true;
         if (!(o instanceof Author)) return false;
         Author author = (Author) o;
-        return Objects.equals(getAuthorFirstName(), author.getAuthorFirstName()) && Objects.equals(getAuthorLastName(), author.getAuthorLastName());
+        return getAuthorFirstName().equals(author.getAuthorFirstName()) && getAuthorLastName().equals(author.getAuthorLastName());
     }
 
     @Override

@@ -30,5 +30,13 @@ public class Main {
         // ДЗ 1.10
         System.out.println(warAndPeace);
         System.out.println(levTolstoy);
+
+        System.out.println(levTolstoy.hashCode());
+        System.out.println(ivanTurgenev.hashCode());
+        System.out.println(warAndPeace.hashCode());
+        System.out.println(muMu.hashCode());
+        System.out.println(warAndPeace.equals(muMu));
+        System.out.println(levTolstoy.equals(ivanTurgenev));
+
     }
 }
